@@ -1,25 +1,29 @@
-# cert-report CLI
+# Leaselock Cert Report CLI
 
-A CLI for cert-report.
+A CLI for cert reports
 
-## Customizing your CLI
+## Installation
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+### Clone the Repo
 
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
-
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
+```
+git clone git@github.com:djheru/cert-report.git
 ```
 
-# License
+### Install Dependencies
 
-MIT - see LICENSE
+```
+cd cert-report && yarn install
+```
 
+### Link the CLI
+
+```
+yarn link
+```
+
+### Generate a Report
+
+```
+cert-report 1,2
+```
