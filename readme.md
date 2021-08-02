@@ -10,6 +10,13 @@ A CLI for cert reports
 git clone git@github.com:djheru/cert-report.git
 ```
 
+### Update .env file
+
+```
+cp .env.example .env
+# Update to use the correct API URL
+```
+
 ### Install Dependencies
 
 ```
